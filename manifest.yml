@@ -1,0 +1,9 @@
+---
+buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
+
+applications:
+- name: pushtacos
+  mem: 1G
+  instances: 1
+  host: pushtacos
+  domain: cfapps.io
