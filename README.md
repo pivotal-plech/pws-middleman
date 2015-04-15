@@ -13,13 +13,13 @@ You’ll need to have an active Pivotal Web Services account for the following. 
 2. Update `host: proto-mm` to `name: [whatever-you-want-your-host-name-to-be]`
 3. cf push
 
-Fork and repurpose to your heart's content:
+Fork and repurpose to your heart's content.
 
 ---
 
 ### Other Docs
 - [Middleman Documentation](https://middlemanapp.com/basics/install/)
-- [Pivotal Web Serivces](http://run.pivotal.io/)
+- [Pivotal Web Services](http://run.pivotal.io/)
 - [Pivotal Web Services Documentation](http://docs.run.pivotal.io/)
 - [BASSCSS](http://www.basscss.com/)
 
