@@ -1,10 +1,10 @@
 # Prototype with Middleman and Push to Pivotal Web Services
 
 ## Prototype
-- `git clone git@github.com:pivotal-plech/pws-middleman.git`
-- `cd pws-middleman`
-- `bundle`
-- `middlman server`
+1. `git clone git@github.com:pivotal-plech/pws-middleman.git`
+2. `cd pws-middleman`
+3. `bundle`
+4. `middlman server`
 
 ## Push to PWS
 You’ll need to have an active Pivotal Web Services account for the following. Update the manifest.yml:
