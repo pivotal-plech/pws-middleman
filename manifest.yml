@@ -2,8 +2,9 @@
 buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
 
 applications:
-- name: pushtacos
+- name: proto-mm
+  command: bundle exec middleman build && bundle exec rackup -p $PORT
   mem: 1G
   instances: 1
-  host: pushtacos
+  host: proto-mm
   domain: cfapps.io

@@ -1,0 +1,84 @@
+---
+title: About
+---
+
+.container-small
+  %section.clearfix.black.bg-red.p3
+    .col-8.mx-auto
+      .flex.flex-center
+        %svg.mr2{"class" => "mr2", "data-icon" => "skull", :height => "42px", :style => "fill:currentcolor", :viewbox => "0 0 32 32"}
+          %path{:d => "M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12 "}
+        %h1.h00.h00-responsive.m0.flex-auto
+          %a.black{:href => "https://middlemanapp.com/basics/install/"}
+            About Stuff
+      .sm-flex.flex-center.mxn2
+        .flex-auto.px2
+          %p.m0 Contrast is the difference in luminance or color that makes an object (or its representation in an image or display) distinguishable. In visual perception of the real world, contrast is determined by the difference in the color and brightness of the object and other objects within the same field of view. Because the human visual system is more sensitive to contrast than absolute luminance, we can perceive the world similarly regardless of the huge changes in illumination over the day or from place to place. The maximum contrast of an image is the contrast ratio or dynamic range.
+  %hr.border.border-black.mt0.mb0
+
+
+  .col-8.mx-auto.mt4
+    %h1.mt0
+      %a.black{:href => "#"}
+        Blog
+    .clearfix.mxn2
+      .sm-col.sm-col-8.md-col-9.px2
+        %div
+          %h2.h3
+            %a.black{:href => "#"}
+              Blog Post Title
+          %p Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin.
+          %a{:href => "#"} Read more
+        %div
+          %h2.h3
+            %a.black{:href => "#"}
+              Blog Post Title
+          %p Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin.
+          %a{:href => "#"} Read more
+      .sm-col.sm-col-4.md-col-3.px2.sm-show
+        %h3.h4 Categories
+        %ul.list-reset
+          %li
+            %a{:href => "#"} Bacon
+          %li
+            %a{:href => "#"} Bratwurst
+          %li
+            %a{:href => "#"} Andouille
+          %li
+            %a{:href => "#"} Pork Loin
+          %li
+            %a{:href => "#"} Corned Beef
+          %li
+            %a{:href => "#"} Pastrami
+
+  %hr.border.border-silver
+
+  .col-8.mx-auto.mb4
+    .flex.flex-center.mt0
+      .px2.py1.border-right
+        %h5 Should I Eat a Taco?
+      .flex-auto.border-top
+      .px2.py1.border.rounded.h6.mr4
+        %a.mr3 Eat Taco
+        %a.red Do Not Eat Taco
+    .overflow-scroll.border
+      %table.table-light
+        %thead
+          %tr
+            %th Artist
+            %th Album
+            %th Release Date
+        %tbody
+          %tr
+            %td Huey Lewis and the News
+            %td Sports
+            %td 1983
+          %tr
+            %td Phil Collins
+            %td No Jacket Required
+            %td 1985
+          %tr
+            %td Peter Gabriel
+            %td So
+            %td 1986
+

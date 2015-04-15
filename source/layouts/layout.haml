@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+    =stylesheet_link_tag "app"
+    =javascript_include_tag "app"
+    %title=current_page.data.title || "Prototyping"
+  %body{class: page_classes + "bg-dark-1"}
+    =partial 'shared/nav'
+    =yield
