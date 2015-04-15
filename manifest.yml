@@ -3,8 +3,8 @@ buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
 
 applications:
 - name: proto-mm
+  host: proto-mm
   command: bundle exec middleman build && bundle exec rackup -p $PORT
   mem: 1G
   instances: 1
-  host: proto-mm
   domain: cfapps.io
